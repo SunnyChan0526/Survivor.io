@@ -15,7 +15,7 @@
     - CGameStateRun
     - CGameStateOver
     - CGameStateValueStorage
-        > 用static的屬性，儲存Init, Run, Over之間共通的變數
+        > 使用static的屬性，儲存Init, Run, Over之間共通的變數
 
 - mygame_initialize.cpp
     > 遊戲初始畫面
