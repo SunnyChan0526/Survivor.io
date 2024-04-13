@@ -17,8 +17,10 @@
     > 最主要的game loop
 
 - mygame_over.cpp
-    > 遊戲結束畫面\
-    
+    > 遊戲結束畫面
+
+<br>
+
 - CGamestage_all.h
     > 負責統一include 所有關卡class的標頭檔
 
@@ -29,8 +31,9 @@
     > 負責boss1關卡內容，以此類推
 
 - CGamestageSelect
-    > 選擇介面\
-
+    > 選擇介面
+    
+<br>
 
 - gameutil
     - CMovingBitmap
