@@ -8,7 +8,7 @@
     - CGameStateRun
     - CGameStateOver
     - CGameStateValueStorage
-        > 儲存遊戲不同state的變數值
+        > 用static的屬性，儲存Init, Run, Over之間共通的變數
 
 - mygame_initialize.cpp
     > 遊戲初始畫面
@@ -18,6 +18,9 @@
 
 - mygame_over.cpp
     > 遊戲結束畫面
+
+- mygame_value.cpp
+  > getter, setter
 
 <br>
 
