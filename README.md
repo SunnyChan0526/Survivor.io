@@ -17,9 +17,7 @@
     > 最主要的game loop
 
 - mygame_over.cpp
-    > 遊戲結束畫面__
-
-
+    > 遊戲結束畫面
 - CGamestage_all.h
     > 負責統一include 所有關卡class的標頭檔
 
