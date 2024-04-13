@@ -2,8 +2,11 @@
 
 ## System Requirements
 
-| Operating System | Development Environment |
-| Windows | Microsoft Visual Studio 2017 |
+| Category             | Requirement              |
+|----------------------|--------------------------|
+| Operating System     | Windows                  |
+| Development Environment | Microsoft Visual Studio 2017 |
+
 
 ## 程式架構說明
 
