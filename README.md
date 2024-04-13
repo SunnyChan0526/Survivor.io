@@ -100,7 +100,7 @@ set_share_obj_data(){
 }
 ```
 
-然後我們會有```get_data()``` 和 ```share_data()``` ，負責將個別class數據與mygame的物件同步，故當可能對資料做變動時，先呼叫```get_data()```將mygame資料放入個別關卡物件，處理完資料再呼叫```share_data()```，將更新後的資料放入mygame的物件
+然後我們會有```get_data()``` 和 ```share_data()``` ，負責將個別class數據與mygame的物件同步，故當可能對資料做變動時，先呼叫```get_data()```將mygame資料放入個別關卡物件，處理完資料再呼叫```share_data()```，將更新後的資料放入mygame的物件。
 
 ```C++
 get_data() {
