@@ -2,7 +2,7 @@
 
 ## 使用環境
 - Windows
-- Microsoft Visual Studio 2007
+- Microsoft Visual Studio 2017
 
 ## 程式架構說明
 
