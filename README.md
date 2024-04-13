@@ -1,5 +1,8 @@
 # Leistungsstarkes Game Framework
 
+## 使用環境
+- Windows
+- Microsoft Visual Studio 2007
 
 ## 程式架構說明
 
