@@ -68,7 +68,7 @@ void CGameStateRun::OnMove()							// 移動遊戲元素
 
 ## 會需要同步數據的物件
 
-會先在mygame.h裡宣告，然後在
+會先在mygame.h裡宣告需要同步數據的物件，然後將不同state的
 ```
 void set_share_obj_data(CMovingBitmap &tmp_background, CMovingBitmap &tmp_character,
 			CMovingBitmap &tmp_opera, CMovingBitmap &tmp_blood_bar, CMovingBitmap &tmp_energy_bar, vector <CMovingBitmap> &tmp_dart, vector<CMovingBitmap> &tmp_bullet);
@@ -127,7 +127,7 @@ share_data() {
 };
 	
 
-	gat_data();
+	get_data();
 
 
 	background_move();
