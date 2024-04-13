@@ -18,6 +18,7 @@ CGamestageSelect
 
 使用方式 : 
 
+```C++
 void CGameStateRun::OnMove()							// 移動遊戲元素
 {
 	b2.OnMove();
@@ -33,6 +34,7 @@ void CGameStateRun::OnMove()							// 移動遊戲元素
 	*/
 
 }
+```
 
 基本上，mygamerun 是一個最主要的gameloop，然後我們會呼叫想要顯示的class的對應功能的function，ex OnMove()，這邊呼叫b2.OnMove()代表說會出現的是b2(也就是boss2)裡面我們會想呈的OnMove內容，類似於我們進一個關卡時會先設置一個 if (state == 2) 然後只移動boss2 和一寫主角等等的物件，但這邊我們把它包進了class，故只要再需要第二關時直接呼叫b2.OnMove()就行，以此類推
 
@@ -45,7 +47,7 @@ void CGameStateRun::OnMove()							// 移動遊戲元素
 			CMovingBitmap &tmp_opera, CMovingBitmap &tmp_blood_bar, CMovingBitmap &tmp_energy_bar, vector <CMovingBitmap> &tmp_dart, vector<CMovingBitmap> &tmp_bullet);
 裡將需要被同步資料的obj 傳入
 
-在class里設置指標，指向mygame裡宣告的物件，有增加的話要記的修改set_share_obj_data裡的內容
+在class裡設置指標，指向mygame裡宣告的物件，有增加的話要記得修改set_share_obj_data裡的內容
 
 ex.
 
