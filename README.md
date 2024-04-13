@@ -8,48 +8,36 @@
     - CGameStateRun
     - CGameStateOver
     - CGameStateValueStorage
-        
         > 儲存遊戲不同state的變數值
-        > 
+
 - mygame_initialize.cpp
-    
     > 遊戲初始畫面
-    > 
+
 - mygame_run.cpp
-    
     > 最主要的game loop
-    > 
+
 - mygame_over.cpp
-    
     > 遊戲結束畫面
-    > 
+
 
 - CGamestage_all.h
-    
     > 負責統一include 所有關卡class的標頭檔
-    > 
+
 - CGamestage1
-    
     > 普通關卡，非boss的關卡
-    > 
+
 - CGamestageBoss1
-    
     > 負責boss1關卡內容，以此類推
-    > 
+
 - CGamestageSelect
-    
     > 選擇介面
-    > 
+
 
 - gameutil
     - CMovingBitmap
-        
         > 這個class提供動態(可以移動)的圖形
-        > 
     - CTextDraw
-        
         > 字、字體
-        >
 
 ## 使用方式
 
